@@ -12,17 +12,9 @@ This repo contains solutions and small visualization tools for Advent Of Code 20
 
 > Note: file paths and names in this README match the workspace layout used while developing. Adjust paths if you move files.
 
-## Quick Results (from a local run)
+## Quick Results
 
-- `Day_1.py` outputs:
-  - Part 1: `1048`
-  - Part 2: `6498`
-
-- `Day_2.py` outputs:
-  - Part 1: `28146997880`
-  - Part 2: `40028128307`
-
-These numbers were printed by the included scripts when run with the provided input files.
+Run each day's script to compute the puzzle answers for your copy of the input files — the scripts print their Part 1 and Part 2 answers to the console. Because outputs can vary depending on input, this README does not include locally captured answers; run the scripts below to reproduce results on your machine.
 
 ## Requirements
 
@@ -76,19 +68,3 @@ Notes:
 - `Advent Of Code 2025/Day_2.py` — reads `../day2.txt` relative to the script path.
 
 If you reorganize the files, update those relative paths accordingly.
-
-## Development / Notes
-
-- The visualization requires a working display (does not headlessly render). On headless systems, skip running `Day_1.py` or run on a machine with a GUI.
-- If you plan to share the repository publicly, consider removing large input files or adding `.gitignore` entries for local-only files.
-
-## License
-
-This is a private Advent of Code workspace created for learning and solving puzzles. No license is attached; add one if you intend to publish.
-
----
-
-If you want, I can also:
-- Add a short `Makefile` or PowerShell script to run each day's script easily.
-- Add a `requirements.txt` (I included one in this commit) and pin specific versions.
-- Generate a short GIF of the Day 1 visualization for README embedding.
